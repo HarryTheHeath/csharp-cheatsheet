@@ -24,8 +24,8 @@ Variable Scope | The reacha & validity of a variable | { This.variableScope } | 
 `double` | Less accurate than float, but better performance & fractionals | `double a = 12.3; double bacteriaSize = 24e-10;` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 `bool` | True or false literal flags | `bool check = true; bool isWinning = false;` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 `char` | Uses unicode for single characters | `char euroSign = "€"; foreach(char c in helloWorld) {}` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
-`string` | ? | ? | ?
-`byte` | ? | ? | ?
+`string` | A full string | `string name = "Harry"; use "@" before quotations for multiline` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`byte` | Assign variable within byte data range | `byte value1 = 64; byte someByte = 0xF1;` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 Implicit Casting | ? | ? | ?
 Explicit Casting | ? | ? | ?
 Type Conversion | ? | ? | ?
