@@ -26,12 +26,12 @@ Variable Scope | The reacha & validity of a variable | { This.variableScope } | 
 `char` | Uses unicode for single characters | `char euroSign = "€"; foreach(char c in helloWorld) {}` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 `string` | A full string | `string name = "Harry"; use "@" before quotations for multiline` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 `byte` | Assign variable within byte data range | `byte value1 = 64; byte someByte = 0xF1;` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
-Implicit Casting | ? | ? | ?
-Explicit Casting | ? | ? | ?
-Type Conversion | ? | ? | ?
-`Convert.ToInt32` | ? | ? | ?
-Operators | ? | ? | ?
-Arithmetic Operators | ? | ? | ?
+Implicit Casting | Give a direct value | `int i = 5; double d = 1; 5.0 d = 9.78;` | [Conversion](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#5-conversion)
+Explicit Casting | Converting fractional to whole comes with a loss of precision | `i = (int) d; // new value: 9 // string input = "2";` | [Conversion](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#5-conversion)
+Type Conversion | Convert between types e.g. class to variable  | `int num = 2147483647; long bigNum = num;` | [Conversion](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#5-conversion)
+`Convert.ToInt32` | Convert to int e.g. from input | `i = Convert.ToInt32(input);` | [Conversion](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#5-conversion)
+Operators | Functions represented as symbols | `int add = 3 + 5;` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+Arithmetic Operators | Math operations | `public class Coin { public static Coins operator+ (Coin a, Coin b) {return new Coins (a, b);}` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `+` | ? | ? | ?
 `-` | ? | ? | ?
 `*` | ? | ? | ?
