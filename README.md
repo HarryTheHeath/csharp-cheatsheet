@@ -9,18 +9,18 @@ Variable Initialization | When a value is assigned to a variable for the first t
 Script Execution Order | Be mindful of chronology e.g. Maths | N/A | N/A
 Formatting | ? | ? | ?
 `Console.WriteLine` | Write a comment in command. Use for testing & instructions. | `CW + TAB` | [Printing Output](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#1---printing-output)
-`Console.Write` | Doesn't create new line. Can chain multiple together. | `Console.Write("Ouput");` | ?
+`Console.Write` | Doesn't create new line. Can chain multiple together. | `Console.Write("Ouput");` | [Comments](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#2---comments)
 Multi-Line Comment | Turn more than one line of code into a comment | `/* Lines of text */` | [Comments](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#2---comments)
 XML Documentation Comment | Use three forward slashes for special comments | `/// <summary> /// details` | [Comments](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#2---comments)
-Variable | Data storage units that consist of a name & a type. '=' assigns value | `int x; int x = 1; Console.WriteLine(x);` | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
-Variable Declaration | ? | ? | ?
-Variable Assignment | ? | ? | ?
-Uninitialized Variable | ? | ? | ?
-`=` (Assignment Operator) | ? | ? | ?
-Scope | ? | ? | ?
-Variable Scope | ? | ? | ?
-`int` | ? | ? | ?
-`float` | ? | ? | ?
+Variable | Data storage units that consist of a name & a type. | `int x = 1; Console.WriteLine(x);` | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
+Variable Declaration | Always declare a variable before using one | `int x; int y; int z; ` | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
+Variable Assignment | Use = sign to assign values to variables | `int z = (5+y)` | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
+Uninitialized Variable | A variable that's declared, but lacks a definite assigned value | `int k; k = k + 1;` | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
+`=` (Assignment Operator) | Assigns value to a variable, property, or indexer element. | `a = (b = c)` | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
+Scope | Three levels: Class, Method, & Block level | `public class ClassLevel { everythingElse }` | N/A
+Variable Scope | The reacha & validity of a variable | { This.variableScope } | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
+`int` | Integer: whole numbers | `postive: 1, negative : -1` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`float` | Fractional numbers + f (floating point numericals) | `0.25f` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 `double` | ? | ? | ?
 `bool` | ? | ? | ?
 `char` | ? | ? | ?
