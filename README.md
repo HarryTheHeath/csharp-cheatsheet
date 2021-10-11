@@ -21,9 +21,9 @@ Scope | Three levels: Class, Method, & Block level | `public class ClassLevel { 
 Variable Scope | The reacha & validity of a variable | { This.variableScope } | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
 `int` | Integer: whole numbers | `postive: 1, negative : -1` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 `float` | Fractional numbers + f (floating point numericals) | `0.25f` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
-`double` | ? | ? | ?
-`bool` | ? | ? | ?
-`char` | ? | ? | ?
+`double` | Less accurate than float, but better performance & fractionals | `double a = 12.3; double bacteriaSize = 24e-10;` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`bool` | True or false literal flags | `bool check = true; bool isWinning = false;` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
+`char` | Uses unicode for single characters | `char euroSign = "€"; foreach(char c in helloWorld) {}` | [Basic Data Types](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#4-basic-data-types)
 `string` | ? | ? | ?
 `byte` | ? | ? | ?
 Implicit Casting | ? | ? | ?
