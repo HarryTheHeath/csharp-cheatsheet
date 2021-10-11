@@ -32,17 +32,17 @@ Type Conversion | Convert between types e.g. class to variable  | `int num = 214
 `Convert.ToInt32` | Convert to int e.g. from input | `i = Convert.ToInt32(input);` | [Conversion](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#5-conversion)
 Operators | Functions represented as symbols | `int add = 3 + 5;` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 Arithmetic Operators | Math operations | `public class Coin { public static Coins operator+ (Coin a, Coin b) {return new Coins (a, b);}` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
-`+` | ? | ? | ?
-`-` | ? | ? | ?
-`*` | ? | ? | ?
-`/` | ? | ? | ?
-`%` | ? | ? | ?
-`+=` | ? | ? | ?
-`-=` | ? | ? | ?
-`++` | ? | ? | ?
-`--` | ? | ? | ?
-Post-Increment `i++` | ? | ? | ?
-Pre-Increment `++i` | ? | ? | ?
+`+` | add | | ?
+`-` | sub | ? | ?
+`*` | multiply | ? | ?
+`/` | divide | ? | ?
+`%` | modulus | ? | ?
+`+=` | assignment operator 1 | `a+=b -> a=a+b` | ?
+`-=` | assignment operator 2 | `a−=b ->	a=a−b` | ?
+`++` | incrament | `x++=11` | ?
+`--` | decrament | `x++=11` | ?
+Post-Increment `i++` | increment the value then use it inside the expression | int a, b = 15; a = b++; | ?
+Pre-Increment `++i` | increment the value of a variable before using it in an expression |  int a, b = 15; a = ++b; | ?
 `System.Math` | ? | ? | ?
 `static` | ? | ? | ?
 `Math.Max` | ? | ? | ?
