@@ -2,17 +2,17 @@
 
 Keyword |                  Summary                   | Sample Code | Mentioned In
 ------- | ------------------------------------------ | ------------ | ------------
-`;`     | Used to separate statements from each other.| `int i = 5; i++; Console.WriteLine(i);` | [Script Execution](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-script-execution)
+`;`     | Used to separate statements from each other | `int i = 5; i++; Console.WriteLine(i);` | [Script Execution](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-script-execution)
 `//`    | Used for single-line comments              | `float multiplier = 0.01f; // % to float (e.g. 24% = 0.24)` | [Comments](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#single-line-comments)
 Variable Initialization | When a value is assigned to a variable for the first time | `int a = 5;` | [Variables](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-initialization)
-`dotnet new console -o project-name` | For creating a new project using command prompt | dotnet new console -o csharp-cheatsheet | [Console Basics Intro](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#assignments-00331-console-basics-1)
-Script Execution Order | ? | ? | ?
+`dotnet new console -o project-name` | For creating a new project using command prompt | `dotnet new console -o csharp-cheatsheet` | [Console Basics Intro](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#assignments-00331-console-basics-1)
+Script Execution Order | Be mindful of chronology e.g. Maths | N/A | N/A
 Formatting | ? | ? | ?
-`Console.WriteLine` | ? | ? | ?
-`Console.Write` | ? | ? | ?
-Multi-Line Comment | ? | ? | ?
-XML Documentation Comment | ? | ? | ?
-Variable | ? | ? | ?
+`Console.WriteLine` | Write a comment in command. Use for testing & instructions. | `CW + TAB` | [Printing Output](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#1---printing-output)
+`Console.Write` | Doesn't create new line. Can chain multiple together. | `Console.Write("Ouput");` | ?
+Multi-Line Comment | Turn more than one line of code into a comment | `/* Lines of text */` | [Comments](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#2---comments)
+XML Documentation Comment | Use three forward slashes for special comments | `/// <summary> /// details` | [Comments](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#2---comments)
+Variable | Data storage units that consist of a name & a type. '=' assigns value | `int x; int x = 1; Console.WriteLine(x);` | [Variables](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/assignments/003.3.1-console-basics-1.md#3---variables)
 Variable Declaration | ? | ? | ?
 Variable Assignment | ? | ? | ?
 Uninitialized Variable | ? | ? | ?
