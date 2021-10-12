@@ -78,8 +78,7 @@ Comparison Operators | Compare two values to return a bool | `Equal to, greater 
 `if` | Code that only executes if it's condition is met | `int hour = GetHour(); if (hour <12) { cw("Good morning!"); }` | [If .. Else](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#11-if--else)
 `else if` | Alternate condition that could be met | `Else if (hour <18) { cw("Good Day!"); }` | [If .. Else](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#11-if--else)
 `else` | If no other condition is met | `else { cw ("Good Evening!"); }` | [If .. Else](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#11-if--else)
-`? :` | Ternary if-operator. A shortcut for: if something equals X do this, otherwise do that  | `string greeting = hour < 12 ? "Good Morning!" : "Good Day!";
-` | [If .. Else](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#11-if--else)
+`? :` | Ternary if-operator. A shortcut for: if something equals X do this, otherwise do that  | `string greeting = hour < 12 ? "Good Morning!" : "Good Day!";`| [If .. Else](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#11-if--else)
 Flow Control Statements | Order in which statements or instructions are executed | N/A | [If .. Else](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#11-if--else)
 `System.Random` | Creates Random values | ? | [Random](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#12-random)
 pseudo-random | ? | ? | ?
