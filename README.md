@@ -54,27 +54,27 @@ Pre-Increment `++i` | increment the value of a variable before using it in an ex
 `Math.Ceiling` | Rounds to the higher integer | `double ceil = Math.Ceiling(12.1); // 13` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
 `Math.Clamp` | Clamps an int between two defined values | `double clamp = Math.Clamp(15, 0, 10); // 15 is clamped to 10 ` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
 `Math.Pow` | Returns the value to the power of power | `double pow = Math.Pow(2, 3); // 8 (2^3 = 2 * 2 * 2 = 8)` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
-`string.Length` | ? | ? | ?
-`string.ToUpper` | ? | ? | ?
-`string.+` | ? | ? | ?
-`$"{}"` | ? | ? | ?
-`string.[]` | ? | ? | ?
-`string.IndexOf` | ? | ? | ?
-`string.SubString(int)` | ? | ? | ?
-`string.Substring(int, int)` | ? | ? | ?
-`string.Replace` | ? | ? | ?
-immutable | ? | ? | ?
-Logical Operators | ? | ? | ?
-`!` | ? | ? | ?
-`&&` | ? | ? | ?
-<code>&#124;</code> | ? | ? | ?
-Comparison Operators | ? | ? | ?
-`>` | ? | ? | ?
-`==` | ? | ? | ?
-`!=` | ? | ? | ?
-<code>&#124;&#124;</code> | ? | ? | ?
-`>=` | ? | ? | ?
-`<=` | ? | ? | ?
+`string.Length` | Returns the numerical length of a string | `string length = firstName.Length;` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`string.ToUpper` | Turns a string into ALL-CAPS. ToLower does the opposite. | `string upper = firstName.ToUpper(); // JOHN` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`string.+` | String strings together |  `string fullName = firstName + " " + lastName; // John Kane` [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`$"{}"` | String strings and variables together using interpolation | `string interp = $"{firstName} {lastName}"; // John Kane` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`string.[]` | Get a certain letter or character from a string e.g. initials | `char char1 = firstName[0]; // 'J'` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`string.IndexOf` | Get an index of a first occurence of a character or string | `int index = firstName.IndexOf("h"); // 2` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`string.SubString(int)` | Get a subpart of a string starting at an inputted value | `string sub = firstName.SubString(1); // "ohn"` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`string.Substring(int, int)` | Get a subpart of a string starting here, up until this length | `string sub = firstName.SubString(1, 2); // "oh"
+` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+`string.Replace` | Replace all occurences of a character with another | `string replace = fullName.Replace( 'n', 'd'); // "Johd Kade"` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+immutable | Something that can never be changed | `string fullName = "John Kane"; fullName = fullName.Replace('n', 'd'); cw(fullName); // Johd Kade` | [Strings](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#9-strings)
+Logical Operators | Logical constants used to connect two or more formulas | `Three types: and , or , and not ` | [Logical Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
+`!` | Inverse a logical operator | `!false -> true` | [Logical Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
+`&&` | Combine two bool values [AND]  | `bool x = true; bool y = true; bool z = x && y = true; // true` | [Logical Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
+Comparison Operators | Compare two values to return a bool | `Equal to, greater than, less than etc.` | [Comparison Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#comparison-operators)
+`>` | Greater than | `bool isGreater = 10 > 9; // True` | [Comparison Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#comparison-operators)
+`==` | Is equal to | `bool isEqual = 10 == 9; // False` | [Comparison Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#comparison-operators)
+`!=` | IS NOT equal to | `bool isNotEqual = 10 != 9; // True` | [Comparison Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#comparison-operators)
+<code>&#124;&#124;</code> | Check if one of several values is true or false | `bool x = true; bool y = false; bool z = x && y = true; // true` | [Logical Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#logical-operators)
+`>=` | Greater OR equal to | `bool isGreaterOrEqual = 10>= 9; // True` | [Comparison Operators](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#comparison-operators)
+`<=` | ? | `bool isLowerOrEqual = 10<= 9; // False` | ?
 `if` | ? | ? | ?
 `else` | ? | ? | ?
 `else if` | ? | ? | ?
