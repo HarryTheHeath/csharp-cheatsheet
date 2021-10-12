@@ -41,8 +41,8 @@ Arithmetic Operators | Math operations | `public class Coin { public static Coin
 `-=` | assignment operator 2 | `a−=b ->	a=a−b` | assignment operator 1 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `++` | incrament | `x++=11`  | assignment operator 1 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `--` | decrament | | assignment operator 1 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
-Post-Increment `i++` | increment the value then use it inside the expression | int a, b = 15; a = b++; | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
-Pre-Increment `++i` | increment the value of a variable before using it in an expression |  int a, b = 15; a = ++b; | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+Post-Increment `i++` | increment the value then use it inside the expression | `int a, b = 15; a = b++;` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+Pre-Increment `++i` | increment the value of a variable before using it in an expression |  `int a, b = 15; a = ++b;` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `System.Math` | ? | ? | ?
 `static` | ? | ? | ?
 `Math.Max` | ? | ? | ?
