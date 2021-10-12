@@ -34,26 +34,26 @@ Operators | Functions represented as symbols | `int add = 3 + 5;` | [Operators](
 Arithmetic Operators | Math operations | `public class Coin { public static Coins operator+ (Coin a, Coin b) {return new Coins (a, b);}` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `+` | add | `int add = 3 + 5; // 8` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `-` | sub | `int sub = 6 - 12; // -6 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
-``*` | multiply | `int mul = 3 * 4; // 12` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+```*``` | multiply | `int mul = 3 * 4; // 12` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `/` | divide | `int div = 9 / 3; // 3` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `%` | modulus | `int mod = 10 % 3; // = 1`| [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `+=` | assignment operator 1 | `a+=b -> a=a+b` | assignment operator 1 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 `-=` | assignment operator 2 | `a−=b ->	a=a−b` | assignment operator 1 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
-`++` | incrament | `x++=11`  | assignment operator 1 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
-`--` | decrament | | assignment operator 1 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+`++` | incraments by 1 | `x++=11`  | assignment operator 1 | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
+`--` | decraments by 1 | `double a = 1.5; cw (--a); // output: 0.5 | assignment operator 1` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 Post-Increment `i++` | increment the value then use it inside the expression | `int a, b = 15; a = b++;` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
 Pre-Increment `++i` | increment the value of a variable before using it in an expression |  `int a, b = 15; a = ++b;` | [Operators](https://github.com/forsbergsskola-se/gp21-21-0927-csharp-basics-nim-HarryTheHeath/blob/main/slides/003.3.1-console-basics-1.md#7-operators)
-`System.Math` | ? | ? | ?
-`static` | ? | ? | ?
-`Math.Max` | ? | ? | ?
-`Math.Min` | ? | ? | ?
-`Math.Sqrt` | ? | ? | ?
-`Math.Abs` | ? | ? | ?
-`Math.Round` | ? | ? | ?
-`Math.Floor` | ? | ? | ?
-`Math.Ceiling` | ? | ? | ?
-`Math.Clamp` | ? | ? | ?
-`Math.Pow` | ? | ? | ?
+`System.Math` | A static class for solving math problems | `System.Math` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`static` | Something that can't be initiated or inherited | `static void Main() {}` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Max` | Finds the highest value | `int max = Math.Max(5, 3); // = 5` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Min` | Find the lowest value | `int min = Math.Min(5, 3); // = 3` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Sqrt` | Squareroot (what multiplied by itself equals this number) | `double sqrt = Math.Sqrt(16); // 4.0, because 4 * 4 = 16` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Abs` | Absolute (always positive, good for distance) | `double abs = Math.Abs(-4.3); // 4.3` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Round` | Uses statistical rounding to round to the nearest integer | `double round = Math.Round(12.6); // 13` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Floor` | Rounds to the lower integer | `double floor = Math.Floor(12.6) // 12`| [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Ceiling` | Rounds to the higher integer | `double ceil = Math.Ceiling(12.1); // 13` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Clamp` | Clamps an int between two defined values | `double clamp = Math.Clamp(15, 0, 10); // 15 is clamped to 10 ` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
+`Math.Pow` | Returns the value to the power of power | `double pow = Math.Pow(2, 3); // 8 (2^3 = 2 * 2 * 2 = 8)` | [Math](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.2-console-basics-2.md#8-math)
 `string.Length` | ? | ? | ?
 `string.ToUpper` | ? | ? | ?
 `string.+` | ? | ? | ?
@@ -67,7 +67,7 @@ immutable | ? | ? | ?
 Logical Operators | ? | ? | ?
 `!` | ? | ? | ?
 `&&` | ? | ? | ?
-`||` | ? | ? | ?
+`<code>&#124;&#124;</code>` | ? | ? | ?
 Comparison Operators | ? | ? | ?
 `>` | ? | ? | ?
 `==` | ? | ? | ?
